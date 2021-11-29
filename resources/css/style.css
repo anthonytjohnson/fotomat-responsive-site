@@ -398,7 +398,13 @@ header .mobile {
   height: 1.875rem;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 895px) {
+  #quotes-section .content {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   #quotes-section content {
     padding: 1.875rem .625rem;
   }
