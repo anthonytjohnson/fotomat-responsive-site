@@ -283,11 +283,10 @@ header .mobile {
     margin: 0px .5rem;
     padding: 1rem;
   }
-  
+
   .feature h2 {
-    font-size: 1.125rem;
+    font-size: 2rem;
     line-height: 1.3;
-    font-weight: normal;
   }
 
   .feature h3 {
@@ -296,7 +295,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 600px) {
   #features-section {
     flex-flow: column;
     padding: 0;
@@ -304,6 +303,10 @@ header .mobile {
 
   .feature {
     margin: 0;
+    padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .feature .content {
     padding: 1.25rem 1rem 0 1rem;
   }
 }
