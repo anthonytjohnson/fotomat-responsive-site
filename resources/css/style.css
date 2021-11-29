@@ -101,7 +101,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 600px) {
   header .desktop {
     display: none;
   }
@@ -126,12 +126,12 @@ header .mobile {
     padding: 0;
   }
 
-  header .mobile .button {
+  /* header .mobile .button {
     padding: .1875rem .5rem;
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
-  }
+  } */
 }
 
 /* Sign Up Section */
@@ -141,6 +141,10 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url('../images/banner-landingpage.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
