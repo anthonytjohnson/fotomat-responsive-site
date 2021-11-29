@@ -379,7 +379,10 @@ header .mobile {
 }
 
 #quotes-section content {
-  padding: 5rem 0;
+  padding: 5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #quotes-section quote {
