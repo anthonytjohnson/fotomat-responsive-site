@@ -89,7 +89,6 @@ header .mobile {
 
   header .content {
     padding: .5rem 0;
-    display: flex;
   }
 
   header .mobile ul {
