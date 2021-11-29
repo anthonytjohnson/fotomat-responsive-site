@@ -77,6 +77,10 @@ nav .button {
   color: white;
 }
 
+nav li:last-child {
+  display: none;
+}
+
 header .icon {
   width: 1rem;
   padding-left: .75rem;
@@ -84,6 +88,17 @@ header .icon {
 
 header .mobile {
   display: none;
+}
+
+
+@media only screen and (max-width: 895px) {
+  nav li:last-child {
+    display: block;
+  }
+
+  header .content {
+    padding: 1rem 1rem;
+  }
 }
 
 @media only screen and (max-width: 760px) {
